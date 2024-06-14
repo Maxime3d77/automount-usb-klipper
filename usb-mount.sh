@@ -54,7 +54,8 @@ do_mount()
         DEV_LABEL="${DEVBASE}"
     fi
 
-    MOUNT_POINT="/media/${DEV_LABEL}"
+    #MOUNT_POINT="/media/${DEV_LABEL}"
+    MOUNT_POINT="/home/pi/printer_data/gcodes/USB/"
 
     ${log} "Mount point: ${MOUNT_POINT}"
 
