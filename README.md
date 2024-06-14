@@ -5,6 +5,18 @@ __libudev__._
 
 Mount point is /home/pi/printer_data/gcodes/USB
 
+## Install
+```
+git clone https://github.com/Maxime3d77/automount-usb-klipper.git
+cd automount-usb-klipper/
+sudo ./CONFIGURE.sh
+```
+
+## Unintall
+```
+sudo ./REMOVE.sh
+```
+
 On inserting an USB drive, automounts the drive at /media/ as a
 directory named by device label; just the device name if label is
 empty: /media/usbtest, /media/sdd
